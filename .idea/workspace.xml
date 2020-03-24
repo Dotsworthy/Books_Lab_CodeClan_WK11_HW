@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3936be-b2f4-4ac0-8a1f-de5ab49e8ec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BorrowerTest">
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClassesHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
@@ -85,25 +92,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1585085180566">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1585085861006">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585085180566" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1585085180565">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585085861006" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1585085861006">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585085180565" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1585085180564">
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585085861006" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1585085861005">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585085180564" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1585085180565">
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585085861005" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1585085861006">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585085180565" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585085861006" />
     <state x="413" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1585082672643">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="413" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1585082672643" />
+    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1585085730479">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1585085730479" />
   </component>
 </project>
