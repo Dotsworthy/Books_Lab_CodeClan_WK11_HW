@@ -10,7 +10,7 @@ public class LibraryTest {
 
     @Before
     public void before() {
-        library = new Library();
+        library = new Library(1);
         book = new Book("Vietnam War", "Max Hastings","History");
     }
 
@@ -19,5 +19,17 @@ public class LibraryTest {
         assertEquals(0, library.getBookCount());
     }
 
-    
+    @Test
+    public void canAddBook() {
+        library.addBook(book);
+        assertEquals(1,library.getBookCount());
+    }
+
+    @Test
+    public void cantAddBookWhenFull() {
+        library.addBook(book);
+        library.addBook(book);
+        assertEquals(1, library.getBookCount());
+    }
+
 }
