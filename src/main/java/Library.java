@@ -20,6 +20,10 @@ public class Library {
         }
     }
 
+    public Book removeBook() {
+       return this.book.remove(0);
+    }
+
     public boolean hasSpace() {
         return this.capacity > getBookCount();
     }
